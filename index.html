@@ -1,0 +1,49 @@
+<!-- Process Scheduling Algorithms simulator-->
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <title>PROCESS SCHEDULING ALGORITHM</title>
+</head>
+<link rel="stylesheet" href="PSA.css">
+
+<body onload="createTable()">
+    <h1 id="title">PROCESS SCHEDULING ALGORITHM SIMULATOR</h1>
+    <p id="timeq">Time Quantum : <input id="quantum" , type="number" ></p>
+    <div id="buttons">
+        <select name="procsch" id="algo" onchange="onsel()">
+            <option value="RR">Round Robin</option>
+            <option value="FCFS">First Come First Serve</option>
+            <option value="SJF">Shortest Job First</option>
+            <option value="SRTN">Shortest Remaininig Time Next</option>
+        </select>
+        <br>
+        <br>
+        <div id="cont"></div>
+        <br>
+        <button id="addprocess">Add Process</button>
+        <br>
+        <br>
+        <button id="bt">Run Algorithm</button>
+    </div>
+    <br>
+    <br>
+    <div id="tables">
+        <p id="queues">Ready Queue</p>
+        <br>
+        <table border="2" id="readyqueue"></table>
+        <br>
+        <p id="queues">Gantt Chart</p>
+        <br>
+        <table border="2" id="ganttchart"></table>
+        <br>
+        <table border="2" id="timestamp"></table>
+        <br>
+        <table border="2" id="ProcessTable"></table>
+    </div>
+    <script src="PSA.js"></script>
+</body>

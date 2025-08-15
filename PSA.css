@@ -1,0 +1,169 @@
+*,
+body {
+    font-family: 'JetBrains Mono';
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+
+#timeq {
+    font-size: 20px;
+    text-align: center;
+}
+
+#quantum {
+    font-size: 20px;
+    border: 3px solid black;
+    width: 50px;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#algo {
+    font-size: 20px;
+    border-width: 3px;
+    border-radius: 7px;
+    background-color: #97f3ff;
+    border-color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#bt {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3px;
+    background-color: rgb(255, 246, 79);
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 7px;
+}
+
+#bt:hover {
+    background-color: rgb(202, 178, 0);
+    cursor: pointer;
+
+}
+
+#bt:active {
+    background-color: rgb(0, 225, 150);
+}
+
+#addprocess {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3px;
+    background-color: rgb(255, 246, 79);
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 7px;
+}
+
+#addprocess:hover {
+    background-color: rgb(202, 178, 0);
+    cursor: pointer;
+
+}
+
+#addprocess:active {
+    background-color: rgb(90, 233, 185);
+}
+
+#cont th {
+    font-size: 25px;
+}
+
+#procTable input {
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    border-width: 3px;
+    background-color: #ffe2cc;
+}
+
+#queues {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#readyqueue td {
+    border-color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-width: 3px;
+    padding: 2.5px;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: aquamarine;
+}
+
+#ganttchart td {
+    border-color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-width: 4px;
+    padding: 5px;
+    font-size: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: #0ff3ff;
+}
+
+#timestamp td {
+    border-color: rgb(0, 0, 0);
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    padding-right: 65px;
+    padding-left: 0px;
+}
+
+#ProcessTable td {
+    border-color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-width: 4px;
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#ProcessTable tr:nth-child(even) {
+    background-color: rgb(199, 220, 255);
+}
+
+#ProcessTable tr:nth-child(odd) {
+    background-color: rgb(199, 220, 255);
+}
+
+#ProcessTable tr:first-child {
+    background: #80ff63;
+}
+
+#ProcessTable tr:last-child {
+    background: #ffa96c;
+}
+
+#tables td {
+    text-align: center;
+}
+
+table,
+td {
+    font-weight: bold;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#credits {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+}
